@@ -48,12 +48,13 @@ body{
     text-decoration: none;
     color: #eadbdbae;
 
+    &:hover{
+        transform:scale(1.5);
+        color: white;
+    }
+
 }
 
-#socialmedia:hover{
-    transform:scale(1.5);
-    color: white;
-}
 
 /* .contacts{
     font-size: 20pt;
@@ -68,7 +69,6 @@ body{
 .nav{
     column-count: 6;
     column-gap: 40px;
-    /* background-color: #01022ec5; */
     color: #eadbdbae;
 }
 
@@ -76,14 +76,22 @@ body{
     text-decoration: none;
     color: #eadbdbae;
     margin: 5px;
+
+    &:hover {
+        transform: scale(1.1);
+        color: white;
+    }
 }
 
-.navbar:hover{
-    transform: scale(1.1);
-    color: white;
-}
 
-.row{
+.image-text{
+    font-size: 25pt;
+    color: #eadbdb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
