@@ -1,0 +1,15 @@
+.footer-class{
+    background-color: #66a5ed;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-class span {
+    color: #dd3951;
+}
+
+#tast:hover{
+    transform:scale(1.5);
+    color: red;
+}
+
